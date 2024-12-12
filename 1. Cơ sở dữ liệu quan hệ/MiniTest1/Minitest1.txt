@@ -1,0 +1,31 @@
+Xây dựng DB cho dự án quản lý học viên với các bảng như sau:
+Bảng Class 
+Bảng Students
+Bảng Course
+Bảng Point 
+
+Bảng Address (id int, address)
+Bảng Classes (id, name, language, description)
+Bảng Students (id, fullname, address_id, age, phone (unique), classes_id)
+Bảng Course (id, name, description)
+Bảng Point(id, course_id, student_id, point)
+
+Bảng Address
+Luyện tập ngày 18/03
+
+Thêm 5 bản ghi trong bảng Address
+Thêm 5 bản ghi trong bảng Classes
+Thêm 10 bản ghi trong bảng Student		
+Thêm 15 bản ghi trong bảng Point
+Viết câu query thực hiện:    
+Tìm kiếm HV có họ Nguyen
+Tìm kiếm HV có ten Anh
+Tim kiem HV có độ tuổi tư 18-15
+Tìm kiếm HV có id là 12 hoặc 13
+
+
+Viết các câu lệnh truy vấn thực hiện nhiệm vụ sau:
+Thống kê số lượng học viên các lớp (count)
+Thống kê số lượng học viên tại các tỉnh (count)
+Tính điểm trung bình của các khóa học (avg)
+Đưa ra khóa học có điểm trung bình cao nhất (max)
