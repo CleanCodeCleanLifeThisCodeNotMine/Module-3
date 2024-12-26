@@ -8,6 +8,7 @@
 <h1>Customers</h1>
 <p>
     <a href="/customers?action=create">Create new customer</a>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
 </p>
 <table border="1">
     <tr>

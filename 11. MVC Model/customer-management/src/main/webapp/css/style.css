@@ -1,0 +1,151 @@
+/* General page styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+/* Title and link styling */
+h1 {
+    color: #444;
+    text-align: left;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px 0;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 14px 18px;
+    text-align: left;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 2px solid #f4f4f9;
+}
+
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+td {
+    border-bottom: 1px solid #e3e3e3;
+    color: #555;
+}
+
+/* Specifically style the "Name" column */
+td:first-child {
+    font-weight: bold;
+    color: #333;
+    opacity: 1;
+}
+
+/* Action buttons */
+td a {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 0 4px;
+    border-radius: 5px;
+    font-size: 13px;
+    text-align: center;
+    color: black;
+    transition: background-color 0.3s;
+}
+
+td a[href*="edit"] {
+    background-color: #28a745;
+}
+
+td a[href*="edit"]:hover {
+    background-color: #218838;
+}
+
+td a[href*="delete"] {
+    background-color: #dc3545;
+}
+
+td a[href*="delete"]:hover {
+    background-color: #c82333;
+}
+
+/* Center layout and spacing */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1, p {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Add spacing between table and links */
+p + table {
+    margin-top: 10px;
+}
+
+/* Ensure responsiveness */
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 10px;
+    }
+
+    td a {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+}
