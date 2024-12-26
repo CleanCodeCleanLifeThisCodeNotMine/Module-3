@@ -12,6 +12,7 @@
 </p>
 <p>
     <a href="/customers">Back to customer list</a>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
 </p>
 <form method="post">
     <fieldset>

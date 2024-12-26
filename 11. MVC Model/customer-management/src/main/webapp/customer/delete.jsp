@@ -7,6 +7,7 @@
 <h1>Delete customer</h1>
 <p>
     <a href="/customers">Back to customer list</a>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
 </p>
 <form method="post">
     <h3>Are you sure?</h3>
